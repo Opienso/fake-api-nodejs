@@ -1,18 +1,7 @@
 {
   "protectedResources": {
-    "users": [
-      "GET",
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ],
-    "products": [
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ]
+    "users": [],
+    "products": []
   },
   "users": [
     {
@@ -22,11 +11,7 @@
       "username": "admin",
       "email": "admin@gmail.com",
       "password": "admin",
-      "avatar": "https://robohash.org/eaquequasincidunt.png?size=50x50&set=set1",
-      "gender": "Genderfluid",
-      "phone": "933-658-1213",
-      "birthday": "1994-03-23",
-      "status": true,
+      "roleType": "SYS_ADMIN",
       "createdAt": 1609483221000,
       "modifiedAt": 1609483221000
     },
@@ -266,6 +251,38 @@
       "status": false,
       "createdAt": 1615146960000,
       "modifiedAt": 1615146960000
+    }
+  ],
+  "shifts": [
+    {
+      "id": 0.45573457091378144,
+      "date": "2023-11-17T00:00:00.000Z",
+      "name": "gabriel",
+      "email": "gabriel@gmail.com",
+      "status": true,
+      "createdAt": 1699895693047,
+      "modifiedAt": 1699984948783,
+      "shiftTakenBy": "eze"
+    },
+    {
+      "id": 0.8723105489512895,
+      "date": "2023-12-03T00:00:00.000Z",
+      "name": "gabriel",
+      "email": "gabriel@gmail.com",
+      "status": true,
+      "createdAt": 1699895696634,
+      "modifiedAt": 1699896072243,
+      "shiftTakenBy": "milo"
+    },
+    {
+      "id": 0.7411522898872351,
+      "date": "2023-12-03T00:00:00.000Z",
+      "name": "gabriel",
+      "email": "gabriel@gmail.com",
+      "status": true,
+      "createdAt": 1699895697484,
+      "modifiedAt": 1699896072829,
+      "shiftTakenBy": "milo"
     }
   ]
 }
